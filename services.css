@@ -1,0 +1,147 @@
+.body{
+  overflow: hidden;
+  background-color: rgb(226, 213, 196);
+}
+.header {
+      margin: 0;
+      display: flex; 
+      font-family: Arial, sans-serif;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      padding: 15px 40px;
+      z-index: 1000;
+      width: 100%;
+      /* box-shadow: 2px 2px 2px rgba(0,0,0,1); */
+      background: #1e678f;
+    }
+
+    .logo{
+        display: flex;
+        gap: 10px;
+        height:50px
+    }
+    .logo p{
+        color:white;
+        height: 50px;
+        font-style: italic;
+        font-family: "Times New Roman";
+        font-weight: bolder;
+    }
+    
+    .nav{
+      color: white;
+      display: flex;
+      gap: 70px;
+      margin-left: 150px;
+    }
+    .nav a{
+      text-decoration: none;
+      color: white;
+      font-style:italic;
+      font-family:"Times New Roman";
+      font-size: larger;
+    }
+    /* .nav:hover{
+      text-decoration: underline;
+      color: antiquewhite;
+    } */
+    .socials{
+     margin-left: 90px;
+    }
+
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 80px 8%;
+  background-color: #fff;
+}
+
+.services h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.services .subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+/* Service Cards */
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  padding: 40px 25px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon img {
+  width: 200px;
+  height: auto;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #222;
+}
+ .copy{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+     .copy cop{
+      width: 1%;
+      height: 1%;
+     }
+     .soc{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+      .x{
+        width: 30px;
+        height: auto;
+      }
+      .fb{
+       width: 30px;
+        height: auto; 
+      }
+      .li{
+      width: 30px;
+      height: auto;
+      }
+      .wh{
+        width: 40px;
+        height: auto;
+      }

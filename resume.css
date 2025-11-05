@@ -1,0 +1,152 @@
+.body{
+  overflow: hidden;
+  background-color: rgb(226, 213, 196);
+}
+.header {
+      margin: 0;
+      display: flex; 
+      font-family: Arial, sans-serif;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      padding: 15px 40px;
+      z-index: 1000;
+      width: 100%;
+      /* box-shadow: 2px 2px 2px rgba(0,0,0,1); */
+      background: #1e678f;
+    }
+
+    .logo{
+        display: flex;
+        gap: 10px;
+        height:50px
+    }
+    .logo p{
+        color:white;
+        height: 50px;
+        font-style: italic;
+        font-family: "Times New Roman";
+        font-weight: bolder;
+    }
+    
+    .nav{
+      color: white;
+      display: flex;
+      gap: 70px;
+      margin-left: 150px;
+    }
+    .nav a{
+      text-decoration: none;
+      color: white;
+      font-style:italic;
+      font-family:"Times New Roman";
+      font-size: larger;
+    }
+    .socials{
+     margin-left: 90px;
+    }
+    .par{
+        align-items: center;
+        justify-items: center;
+        font-style: italic;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+    /* ===== Resume Layout ===== */
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px 10%;
+  /* background: #fff; */
+}
+
+.left-column, .right-column {
+  flex: 1;
+  min-width: 280px;
+  position: relative;
+}
+
+h2 {
+  border-left: 3px solid #00bfa6;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  border-left: 2px solid #00bfa6;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 0px;
+  width: 12px;
+  height: 12px;
+  background: #00bfa6;
+  border-radius: 50%;
+}
+
+.timeline-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.timeline-item h4 {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.timeline-item em {
+  color: #555;
+  font-style: italic;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column;
+  }
+}
+    
+    .all{
+        background-color: antiquewhite;
+    }
+    .copy{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+     .copy cop{
+      width: 1%;
+      height: 1%;
+     }
+     .soc{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+      .x{
+        width: 30px;
+        height: auto;
+      }
+      .fb{
+       width: 30px;
+        height: auto; 
+      }
+      .li{
+      width: 30px;
+      height: auto;
+      }
+      .wh{
+        width: 40px;
+        height: auto;
+      }

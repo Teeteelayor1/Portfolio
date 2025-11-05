@@ -1,0 +1,89 @@
+.body{
+  overflow: hidden;
+  background-color: rgb(226, 213, 196);
+}
+.header {
+      margin: 0;
+      display: flex; 
+      font-family: Arial, sans-serif;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      padding: 15px 40px;
+      z-index: 1000;
+      width: 100%;
+      /* box-shadow: 2px 2px 2px rgba(0,0,0,1); */
+      background: #1e678f;
+    }
+
+    .logo{
+        display: flex;
+        gap: 10px;
+        height:50px
+    }
+    .logo p{
+        color:white;
+        height: 50px;
+        font-style: italic;
+        font-family: "Times New Roman";
+        font-weight: bolder;
+    }
+    
+    .nav{
+      color: white;
+      display: flex;
+      gap: 70px;
+      margin-left: 150px;
+    }
+    .nav a{
+      text-decoration: none;
+      color: white;
+      font-style:italic;
+      font-family:"Times New Roman";
+      font-size: larger;
+    }
+    .socials{
+     margin-left: 90px;
+    }
+    .par{
+        align-items: center;
+        justify-items: center;
+        font-style: italic;
+        font-family: 'Times New Roman';
+        color: black;
+    }
+    .all{
+        background-color: antiquewhite;
+    }
+    .copy{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+     .copy cop{
+      width: 1%;
+      height: 1%;
+     }
+     .soc{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+     }
+      .x{
+        width: 30px;
+        height: auto;
+      }
+      .fb{
+       width: 30px;
+        height: auto; 
+      }
+      .li{
+      width: 30px;
+      height: auto;
+      }
+      .wh{
+        width: 40px;
+        height: auto;
+      }
